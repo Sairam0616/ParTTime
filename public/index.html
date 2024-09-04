@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="logo-container">
+        <img src="logo.png" alt="Brand-logo">
+        <svg viewBox="10 0 200 50">
+            <!-- Logotype -->
+            <text x="0" y="30" font-size="34" font-family="Open Sans" fill="#FFC107">ParTTime</text>
+            <!-- Tagline -->
+            <text x="0" y="50" font-size="26" font-family="Open Sans" fill="#2E4053">Find Jobs, Give Jobs</text>
+        </svg>
+    </div>
+    <div class="container">
+        <div class="login-container">
+            <h1>Sign in ParTTime</h1>
+            <button class="google-btn">
+                <img src="google-icon.png" alt="Google Icon"> Continue with Google
+            </button>
+            <p class="or">or</p>
+            <form id="loginForm">
+                <input type="email" id="email" name="email" placeholder="EMAIL" required>
+                <input type="password" id="password" name="password" placeholder="PASSWORD" required>
+                <button type="submit" class="login-btn">Log in</button>
+            </form>
+            <div class="links">
+                <p><a href="reset-password.html">Reset password</a></p>
+                <p>No account? <a href="register.html" class="create-link">Create one</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

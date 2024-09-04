@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Sign-On</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sso-container">
+            <h1>Single Sign-On</h1>
+            <p>Redirecting to your organization's sign-on page...</p>
+            <!-- Add your SSO script or redirection logic here -->
+            <script>
+                // Replace the URL with your organization's SSO URL
+                const ssoUrl = 'http://localhost:3000/index.html';
+
+                // Redirect to the SSO URL after a short delay (e.g., 3 seconds)
+                setTimeout(() => {
+                    window.location.href = ssoUrl;
+                }, 3000); // 3000 milliseconds = 3 seconds
+            </script>
+        </div>
+    </div>
+</body>
+</html>
+
